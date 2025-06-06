@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620C83AD2DF352E300622122 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		62FF41C52DF34195007B3AA1 /* youtube-macos-redux-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-macos-redux-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FF41D32DF34196007B3AA1 /* youtube-macos-redux-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "youtube-macos-redux-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FF41DD2DF34196007B3AA1 /* youtube-macos-redux-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "youtube-macos-redux-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +81,7 @@
 		62FF41BC2DF34195007B3AA1 = {
 			isa = PBXGroup;
 			children = (
+				620C83AD2DF352E300622122 /* README.md */,
 				62FF41C72DF34195007B3AA1 /* sources */,
 				62FF41D62DF34196007B3AA1 /* unit-tests */,
 				62FF41E02DF34196007B3AA1 /* ui-tests */,
