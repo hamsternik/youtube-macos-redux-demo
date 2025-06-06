@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		62FF41D42DF34196007B3AA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62FF41BD2DF34195007B3AA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62FF41C42DF34195007B3AA1;
+			remoteInfo = "youtube-macos-redux-demo";
+		};
+		62FF41DE2DF34196007B3AA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62FF41BD2DF34195007B3AA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62FF41C42DF34195007B3AA1;
+			remoteInfo = "youtube-macos-redux-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62FF41C52DF34195007B3AA1 /* youtube-macos-redux-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-macos-redux-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FF41D32DF34196007B3AA1 /* youtube-macos-redux-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "youtube-macos-redux-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FF41DD2DF34196007B3AA1 /* youtube-macos-redux-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "youtube-macos-redux-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		62FF41C72DF34195007B3AA1 /* sources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sources;
+			sourceTree = "<group>";
+		};
+		62FF41D62DF34196007B3AA1 /* unit-tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "unit-tests";
+			sourceTree = "<group>";
+		};
+		62FF41E02DF34196007B3AA1 /* ui-tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ui-tests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62FF41C22DF34195007B3AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FF41D02DF34196007B3AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FF41DA2DF34196007B3AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62FF41BC2DF34195007B3AA1 = {
+			isa = PBXGroup;
+			children = (
+				62FF41C72DF34195007B3AA1 /* sources */,
+				62FF41D62DF34196007B3AA1 /* unit-tests */,
+				62FF41E02DF34196007B3AA1 /* ui-tests */,
+				62FF41C62DF34195007B3AA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62FF41C62DF34195007B3AA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62FF41C52DF34195007B3AA1 /* youtube-macos-redux-demo.app */,
+				62FF41D32DF34196007B3AA1 /* youtube-macos-redux-demoTests.xctest */,
+				62FF41DD2DF34196007B3AA1 /* youtube-macos-redux-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62FF41C42DF34195007B3AA1 /* youtube-macos-redux-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FF41E72DF34196007B3AA1 /* Build configuration list for PBXNativeTarget "youtube-macos-redux-demo" */;
+			buildPhases = (
+				62FF41C12DF34195007B3AA1 /* Sources */,
+				62FF41C22DF34195007B3AA1 /* Frameworks */,
+				62FF41C32DF34195007B3AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				62FF41C72DF34195007B3AA1 /* sources */,
+			);
+			name = "youtube-macos-redux-demo";
+			packageProductDependencies = (
+			);
+			productName = "youtube-macos-redux-demo";
+			productReference = 62FF41C52DF34195007B3AA1 /* youtube-macos-redux-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62FF41D22DF34196007B3AA1 /* youtube-macos-redux-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FF41EA2DF34196007B3AA1 /* Build configuration list for PBXNativeTarget "youtube-macos-redux-demoTests" */;
+			buildPhases = (
+				62FF41CF2DF34196007B3AA1 /* Sources */,
+				62FF41D02DF34196007B3AA1 /* Frameworks */,
+				62FF41D12DF34196007B3AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62FF41D52DF34196007B3AA1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				62FF41D62DF34196007B3AA1 /* unit-tests */,
+			);
+			name = "youtube-macos-redux-demoTests";
+			packageProductDependencies = (
+			);
+			productName = "youtube-macos-redux-demoTests";
+			productReference = 62FF41D32DF34196007B3AA1 /* youtube-macos-redux-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62FF41DC2DF34196007B3AA1 /* youtube-macos-redux-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FF41ED2DF34196007B3AA1 /* Build configuration list for PBXNativeTarget "youtube-macos-redux-demoUITests" */;
+			buildPhases = (
+				62FF41D92DF34196007B3AA1 /* Sources */,
+				62FF41DA2DF34196007B3AA1 /* Frameworks */,
+				62FF41DB2DF34196007B3AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62FF41DF2DF34196007B3AA1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				62FF41E02DF34196007B3AA1 /* ui-tests */,
+			);
+			name = "youtube-macos-redux-demoUITests";
+			packageProductDependencies = (
+			);
+			productName = "youtube-macos-redux-demoUITests";
+			productReference = 62FF41DD2DF34196007B3AA1 /* youtube-macos-redux-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62FF41BD2DF34195007B3AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					62FF41C42DF34195007B3AA1 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					62FF41D22DF34196007B3AA1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 62FF41C42DF34195007B3AA1;
+					};
+					62FF41DC2DF34196007B3AA1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 62FF41C42DF34195007B3AA1;
+					};
+				};
+			};
+			buildConfigurationList = 62FF41C02DF34195007B3AA1 /* Build configuration list for PBXProject "youtube-macos-redux-demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62FF41BC2DF34195007B3AA1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 62FF41C62DF34195007B3AA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62FF41C42DF34195007B3AA1 /* youtube-macos-redux-demo */,
+				62FF41D22DF34196007B3AA1 /* youtube-macos-redux-demoTests */,
+				62FF41DC2DF34196007B3AA1 /* youtube-macos-redux-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62FF41C32DF34195007B3AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FF41D12DF34196007B3AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FF41DB2DF34196007B3AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62FF41C12DF34195007B3AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FF41CF2DF34196007B3AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FF41D92DF34196007B3AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62FF41D52DF34196007B3AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62FF41C42DF34195007B3AA1 /* youtube-macos-redux-demo */;
+			targetProxy = 62FF41D42DF34196007B3AA1 /* PBXContainerItemProxy */;
+		};
+		62FF41DF2DF34196007B3AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62FF41C42DF34195007B3AA1 /* youtube-macos-redux-demo */;
+			targetProxy = 62FF41DE2DF34196007B3AA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62FF41E52DF34196007B3AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C5B4S79D6V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62FF41E62DF34196007B3AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C5B4S79D6V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		62FF41E82DF34196007B3AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sources/resources/youtube_macos_redux_demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5B4S79D6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamsternik.youtube-macos-redux-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		62FF41E92DF34196007B3AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sources/resources/youtube_macos_redux_demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5B4S79D6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamsternik.youtube-macos-redux-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		62FF41EB2DF34196007B3AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5B4S79D6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamsternik.youtube-macos-redux-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/youtube-macos-redux-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/youtube-macos-redux-demo";
+			};
+			name = Debug;
+		};
+		62FF41EC2DF34196007B3AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5B4S79D6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamsternik.youtube-macos-redux-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/youtube-macos-redux-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/youtube-macos-redux-demo";
+			};
+			name = Release;
+		};
+		62FF41EE2DF34196007B3AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5B4S79D6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamsternik.youtube-macos-redux-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "youtube-macos-redux-demo";
+			};
+			name = Debug;
+		};
+		62FF41EF2DF34196007B3AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5B4S79D6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamsternik.youtube-macos-redux-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "youtube-macos-redux-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62FF41C02DF34195007B3AA1 /* Build configuration list for PBXProject "youtube-macos-redux-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FF41E52DF34196007B3AA1 /* Debug */,
+				62FF41E62DF34196007B3AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FF41E72DF34196007B3AA1 /* Build configuration list for PBXNativeTarget "youtube-macos-redux-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FF41E82DF34196007B3AA1 /* Debug */,
+				62FF41E92DF34196007B3AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FF41EA2DF34196007B3AA1 /* Build configuration list for PBXNativeTarget "youtube-macos-redux-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FF41EB2DF34196007B3AA1 /* Debug */,
+				62FF41EC2DF34196007B3AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FF41ED2DF34196007B3AA1 /* Build configuration list for PBXNativeTarget "youtube-macos-redux-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FF41EE2DF34196007B3AA1 /* Debug */,
+				62FF41EF2DF34196007B3AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62FF41BD2DF34195007B3AA1 /* Project object */;
+}
