@@ -15,9 +15,9 @@ to simplify the youtube client development under apple platforms, check out the 
 list of public youtube clones i am referring to:
 
 | github url | description | tech stack |
-| --- | --- | --- |
+| --- | ----- | :-----: |
 | https://github.com/guillaumefrd/youtube-android-app | Android application using the YouTube API | java |
-| https://github.com/KhubaibKhan4/Youtube-Clone-KMP | YouTube clone using Kotlin Multiplatform. It supports the Android, iOS, Web and Desktop Application. A better version of Original Applications | kotlin |
+| https://github.com/KhubaibKhan4/Youtube-Clone-KMP | YouTube clone using Kotlin Multiplatform | kotlin |
 | https://github.com/ytmdesktop/ytmdesktop | A Desktop App for YouTube Music | typescript / javascript | 
 | https://github.com/flaviotordini/minitube | YouTube app | c++ | 
 | https://github.com/libre-tube/LibreTube | An alternative frontend for YouTube, for Android | kotlin |
