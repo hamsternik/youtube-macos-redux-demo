@@ -1,0 +1,15 @@
+{
+  "originHash" : "289355326e5f540f9f52ef0f8172ba389944caea7dd194ea3668f535bf26c6d4",
+  "pins" : [
+    {
+      "identity" : "swift-unidirectional-flow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mecid/swift-unidirectional-flow",
+      "state" : {
+        "revision" : "1d915cf5e454b8dfe170d289f3a8263b80640af8",
+        "version" : "0.4.3"
+      }
+    }
+  ],
+  "version" : 3
+}

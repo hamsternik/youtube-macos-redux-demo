@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		620C830C2DF346B500622122 /* UnidirectionalFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 620C830B2DF346B500622122 /* UnidirectionalFlow */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		62FF41D42DF34196007B3AA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620C830C2DF346B500622122 /* UnidirectionalFlow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "youtube-macos-redux-demo";
 			packageProductDependencies = (
+				620C830B2DF346B500622122 /* UnidirectionalFlow */,
 			);
 			productName = "youtube-macos-redux-demo";
 			productReference = 62FF41C52DF34195007B3AA1 /* youtube-macos-redux-demo.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 62FF41BC2DF34195007B3AA1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				620C830A2DF346B500622122 /* XCRemoteSwiftPackageReference "swift-unidirectional-flow" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 62FF41C62DF34195007B3AA1 /* Products */;
 			projectDirPath = "";
@@ -551,6 +560,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		620C830A2DF346B500622122 /* XCRemoteSwiftPackageReference "swift-unidirectional-flow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mecid/swift-unidirectional-flow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		620C830B2DF346B500622122 /* UnidirectionalFlow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 620C830A2DF346B500622122 /* XCRemoteSwiftPackageReference "swift-unidirectional-flow" */;
+			productName = UnidirectionalFlow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 62FF41BD2DF34195007B3AA1 /* Project object */;
 }
